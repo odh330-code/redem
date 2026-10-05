@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 12 이상 백업·기기이전 규칙.
+    나무증권 인증정보(암호문)와 계좌번호·잔고는 클라우드 백업과 새 폰 이전에서 뺀다.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="namu_secure_credentials.xml" />
+        <exclude domain="sharedpref" path="namu_accounts.xml" />
+        <exclude domain="sharedpref" path="namu_dividends.xml" />
+        <exclude domain="sharedpref" path="long_strategy.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="namu_secure_credentials.xml" />
+        <exclude domain="sharedpref" path="namu_accounts.xml" />
+        <exclude domain="sharedpref" path="namu_dividends.xml" />
+        <exclude domain="sharedpref" path="long_strategy.xml" />
+    </device-transfer>
+</data-extraction-rules>

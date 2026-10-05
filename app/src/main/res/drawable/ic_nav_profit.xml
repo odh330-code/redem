@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 하단 메뉴 아이콘 (2026-10-05, 시안 C 기반 조합). 색은 코드에서 tint로 입힌다 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M3.8,13V7.5A0.9,0.9 0,0 1,4.7 6.6H6.299999999999999A0.9,0.9 0,0 1,7.199999999999999 7.5V13Z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M8.2,13V10.1A0.9,0.9 0,0 1,9.1 9.2H10.7A0.9,0.9 0,0 1,11.6 10.1V13Z"/>
+    <path android:fillColor="#FFFFFFFF" android:fillAlpha="0.6" android:pathData="M12.6,13H16.0V17.700000000000003A0.9,0.9 0,0 1,15.1 18.6H13.5A0.9,0.9 0,0 1,12.6 17.700000000000003Z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M17,13V4.5A0.9,0.9 0,0 1,17.9 3.6H19.5A0.9,0.9 0,0 1,20.4 4.5V13Z"/>
+    <path android:fillColor="#FFFFFFFF" android:fillAlpha="0.6" android:pathData="M2.6,12.4H21.4V13.6H2.6Z"/>
+</vector>

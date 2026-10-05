@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 11 이하 자동 백업 규칙.
+    나무증권 인증정보(암호문)와 계좌번호·잔고는 백업하지 않는다.
+    (암호화 키는 이 기기 Keystore에만 있어 복원해도 풀 수 없고, 계좌정보가 클라우드에 남을 이유도 없음)
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="namu_secure_credentials.xml" />
+    <exclude domain="sharedpref" path="namu_accounts.xml" />
+    <exclude domain="sharedpref" path="namu_dividends.xml" />
+    <exclude domain="sharedpref" path="long_strategy.xml" />
+</full-backup-content>
